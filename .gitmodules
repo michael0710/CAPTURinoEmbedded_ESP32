@@ -1,0 +1,4 @@
+[submodule "src/appl"]
+	path = src/appl
+	url = https://github.com/michael0710/public_CAPTURinoEmbeddedAppl.git
+	branch = main
