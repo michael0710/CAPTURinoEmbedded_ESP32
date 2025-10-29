@@ -26,3 +26,6 @@ The peripherals are used for the following purposes:
 Currently there are only two 4-bit codes implemented:
 * `0b0000`: No PHY- or levelshifterboard connected
 * `0b0001`: PHY- or levelshifterboard connected. Further information is stored at the EEPROM with I2C address 0b1010000. Within this EEPROM at adress 0x00 there is a 32-bit ID, stored in big endian format, which holds information regarding the bus type that can be captured with the device.
+
+## Schematic to sniff CAN messages with an ESP32
+![](doc/CapturinoESP32_4_CAN_Schematic.svg)
